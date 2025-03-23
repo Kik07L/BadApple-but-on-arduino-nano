@@ -4,7 +4,7 @@ import time
 from PIL import Image
 
 
-ser = serial.Serial('COM5', 115200)  # Replace 'COM5' by the "COM" thing ur arduino is using
+ser = serial.Serial('COM4', 115200)  # Replace 'COM5' by the "COM" thing ur arduino is using
 time.sleep(2)  
 
 
